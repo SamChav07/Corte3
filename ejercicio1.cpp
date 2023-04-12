@@ -1,4 +1,4 @@
-/*determinar la media */
+/*determinar la media de una lista indefinida de numeros positivos, terminados con numeros negativos#*/
 #include <iostream>
 
 using namespace std;
