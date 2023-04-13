@@ -6,25 +6,24 @@ el numero total de aprobados. (5 o mayor que 5)
 using namespace std;
 int main()
 {
-    int nota, totalNota, Aprobados;
-    totalNota = 0;
-    Aprobados = 0;
+    int nota, totalNota, aprobados;
+    aprobados = 0;
 
     cout << "Ingresa el total de nota a digitar: \n";
     cin >> totalNota;
-
-
+    cout << "\"Considerar 5pts como minimo y 10pts como maximo para aprobar\"" << endl;
+// "\"texto\"" -> para mostrar las comillas en el mnsj...
     for (int i = 1; i <= totalNota; i++)
     {
         cout << "Ingrese las calificaciones: " << i << "...";
         cin >> nota;
-        if (nota >= 5)
+        if ((nota >= 5) && (nota <= 10))
         { 
-         Aprobados++;   
+         aprobados++;   
         }
     }
     
-    cout << "El número total de aprobados es: " << Aprobados << endl;
+    cout << "El número total de aprobados es: " << aprobados << endl;
 
     return 0;
 }
