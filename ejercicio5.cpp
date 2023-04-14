@@ -1,5 +1,4 @@
 /*imprimir todos los numeros primos entre 2 y 1,000 inclusive*/
-#include "mymodule.h"
 #include <iostream>
 using namespace std;
 void ejercicio4();

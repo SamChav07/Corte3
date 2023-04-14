@@ -1,11 +1,10 @@
 /*Dado el nombre de un mes y si el año es o no bisiesto, deducir el numero de dias del mes*/
-#include "mymodule.h"
 #include <iostream>
 
 using namespace std;
 void ejercicio2();
-bool esBisiesto(int anio);
 
+bool esBisiesto(int anio);
 
 int main()
 {

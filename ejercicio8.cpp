@@ -1,6 +1,5 @@
 /*Leer 100 nums. Determinar la media de los numeros positivos
 y la media de los numeros negativos.*/
-#include "mymodule.h"
 #include <iostream>
 using namespace std;
 void ejercicio7();
