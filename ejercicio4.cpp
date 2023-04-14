@@ -1,7 +1,9 @@
 /*Determina la media de una lista de numeros + terminada con un numero no positivo despues del ultimo numero valido*/
+#include "mymodule.h"
 #include <iostream>
 
 using namespace std;
+void ejercicio3();
  
 int main()
 {
